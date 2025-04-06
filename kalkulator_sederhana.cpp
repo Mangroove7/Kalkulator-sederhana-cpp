@@ -50,7 +50,7 @@ int main(){
             long long hasil = bilsatu / bildua;
             (bilsatu == 0 && bildua == 0)?cout << "Tidak Terdefinisi\n":cout << "hasilnya adalah : " << hasil << endl;
         }
-        else{
+        else if (pilihan == 4){
             long long bilsatu,bildua;
             cout << "Masukkan Bilangan pertama (basis): ";
             cin >> bilsatu;
@@ -59,6 +59,9 @@ int main(){
             // menggunakan fungsi pow/pangkat dari cmath
             long long hasil = pow(bilsatu,bildua);
             (bilsatu == 0 && bildua == 0)?cout << "Tidak Terdefinisi\n":cout << "hasilnya adalah : " << hasil << endl;
+        }
+        else{
+            cout << "operator/angka yang kamu pilih tidak valid silahkan ulangi !\n";
         }
         // konfirmasi pada user jika y maka ulangi jika tidak berhenti.
         cout << "Apakah masih ingin menggunakan kembali kalkulator? (y/n) : \n";
