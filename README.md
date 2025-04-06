@@ -3,6 +3,9 @@
 adalah program sederhana yang ditulis dengan c++ berfungsi sebagai kalkulator 2 bilangan dengan operator (+ - * /) dan juga perpangkatan.
 dibuat oleh Mangrove7 untuk tujuan jff (just for fun).
 
+# Catatan !
+pada baris ke-68 jika kamu user linuk anjay mabar ganti system("CLS"); menjadi system("clear"); ya ges ya tapi kalau kamu user jendela(windows) ya biarin aja gausah ganti :v 🩹
+
 # Instalasi
 ### - Pastikan kamu sudah menginstall compiler c++ di desktopmu (g++) ataupun kamu dapat menjalankannya di online compiler dengan meng-copy source code proyek ini dan menjalankannya.
 ### - Jika kamu menjalankannya dengan g++ compiler kamu bisa :
