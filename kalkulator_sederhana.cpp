@@ -66,6 +66,7 @@ int main(){
         if(opsi == 'y'){
             ulang = true;
             system("CLS");
+            system("clear");
         }else{
         ulang = false;
         }
