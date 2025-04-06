@@ -19,7 +19,7 @@ int main(){
             cin >> bilsatu;
             cout << "Masukkan Bilangan Kedua : ";
             cin >> bildua;
-            int hasil = bilsatu + bildua;
+            long long hasil = bilsatu + bildua;
             cout << "hasilnya adalah : " << hasil << endl;
         }
         else if(pilihan == 1){
@@ -28,7 +28,7 @@ int main(){
             cin >> bilsatu;
             cout << "Masukkan Bilangan Kedua : ";
             cin >> bildua;
-            int hasil = bilsatu - bildua;
+            long long hasil = bilsatu - bildua;
             cout << "hasilnya adalah : " << hasil << endl;
         }
         else if(pilihan == 2){
@@ -37,7 +37,7 @@ int main(){
             cin >> bilsatu;
             cout << "Masukkan Bilangan Kedua : ";
             cin >> bildua;
-            int hasil = bilsatu * bildua;
+            long long hasil = bilsatu * bildua;
             cout << "hasilnya adalah : " << hasil << endl;
         }
         else if(pilihan == 3){
@@ -46,7 +46,7 @@ int main(){
             cin >> bilsatu;
             cout << "Masukkan Bilangan Kedua : ";
             cin >> bildua;
-            int hasil = bilsatu / bildua;
+            long long hasil = bilsatu / bildua;
             (bilsatu == 0 && bildua == 0)?cout << "Tidak Terdefinisi\n":cout << "hasilnya adalah : " << hasil << endl;
         }
         else{
@@ -55,9 +55,11 @@ int main(){
             cin >> bilsatu;
             cout << "Masukkan Bilangan Kedua  : ";
             cin >> bildua;
-            int hasil = pow(bilsatu,bildua);
+            // menggunakan fungsi pow/pangkat dari cmath
+            long long hasil = pow(bilsatu,bildua);
             (bilsatu == 0 && bildua == 0)?cout << "Tidak Terdefinisi\n":cout << "hasilnya adalah : " << hasil << endl;
         }
+        // konfirmasi pada user jika y maka ulangi jika tidak berhenti.
         cout << "Apakah masih ingin menggunakan kembali kalkulator? (y/n) : \n";
         char opsi;cin >> opsi;
         (opsi == 'y')?ulang = true:ulang = false;
