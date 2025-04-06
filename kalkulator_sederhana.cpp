@@ -60,7 +60,7 @@ int main(){
             long long hasil = pow(bilsatu,bildua);
             (bilsatu == 0 && bildua == 0)?cout << "Tidak Terdefinisi\n":cout << "hasilnya adalah : " << hasil << endl;
         }
-        else{
+        else if (pilihan != 0 && pilihan != 1 && pilihan != 2 && pilihan != 3 && pilihan != 4){
             cout << "operator/angka yang kamu pilih tidak valid silahkan ulangi !\n";
         }
         // konfirmasi pada user jika y maka ulangi jika tidak berhenti.
