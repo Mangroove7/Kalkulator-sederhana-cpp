@@ -66,7 +66,7 @@ int main(){
         if(opsi == 'y'){
             ulang = true;
             system("CLS");
-            system("clear");
+            // ganti "CLS" dengan "clear" jika kamu user linuk anjay mabar kalau user jendela biarin aja :) ex : system("clear");
         }else{
         ulang = false;
         }
