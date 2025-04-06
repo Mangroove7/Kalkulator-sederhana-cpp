@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <stdlib.h>
 using namespace std;
 int main(){
 
@@ -62,9 +63,13 @@ int main(){
         // konfirmasi pada user jika y maka ulangi jika tidak berhenti.
         cout << "Apakah masih ingin menggunakan kembali kalkulator? (y/n) : \n";
         char opsi;cin >> opsi;
-        (opsi == 'y')?ulang = true:ulang = false;
+        if(opsi == 'y'){
+            ulang = true;
+            system("CLS");
+        }else{
+        ulang = false;
+        }
     }
     cout << "Terimakasih Telah menggunakan kalkulatornya, created by : Mangrove7 100% created by c/c++ code";
-    
     return 0;
 }
